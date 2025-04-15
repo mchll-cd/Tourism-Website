@@ -1,0 +1,818 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+    overflow-x: hidden;
+}
+.INTROBACKGROUND {
+    background-color: #333;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.90)), url("Cagayan de oro short video.gif");
+    background-size: cover; 
+    background-position: center; 
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 100px;
+    height: 550px;
+    padding: 50px 0;
+    font-size: 70px;
+}
+
+
+.hero h1 {
+    margin-bottom: 100px;
+}
+.golden {
+    color: #f4c430;
+}
+
+
+
+    /* --- FIRST BOTTOM BAR --- */
+
+
+.bottom-bar {
+    background-color: rgb(241, 241, 241);
+    position: absolute;
+    bottom: 0;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 61px;
+    border-radius: 40px 40px 0 0;
+    }
+    
+    .bottom-bar h1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 22px;
+        color: #181818;
+        font-weight: 700;
+        letter-spacing: 4px;
+        margin-bottom: 10px;
+    }
+    
+    .bottom-bar p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 300;
+    width: 60%;
+    }
+
+    /* --------------------------------------------- */
+
+    
+
+    /* --- 1. KAGAY-ANON RAFTING PART --- */
+
+    .bottom-bar2 {
+        color: rgb(255, 255, 255);
+        display: flex;
+        background-image: url('whitewater.jpg');
+        background-size: cover;
+        background-position: center 50%;
+        background-repeat: no-repeat;
+        height: 700px;
+        margin-top: 190px;
+        background-color: rgba(0, 0, 0, 0.88);
+        background-blend-mode: darken;
+        text-align: justify;
+        gap: 30px;
+    }
+    
+    .text-content h2 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 55px;
+        color: #eeeeee;
+        font-weight: 1000;
+        margin-bottom: 45px;
+        margin-top: 105px;
+    }
+    
+    .text-content h3 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 25px;
+        font-weight: 400;
+        color: #eeeeee;
+        margin-bottom: 40px;
+        margin-top: -65px;
+        letter-spacing: 8px;
+    }
+    
+    .title {
+        font-family: 'Poppins', sans-serif;
+        font-size: 10px;
+        color: #eeeeee;
+        background-color: #c4a921;
+        padding: 5px 18px;
+        margin-top: 19px;
+        letter-spacing: 3px;
+        margin-right: 540px;
+        display: inline-block;
+    }
+    
+    .text-content {
+        display: inline-block;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    
+    .information5 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        font-weight: 1;
+        color: #eeeeee;
+        margin-bottom: 10px;
+    }
+    
+    .video-content {
+        display: flex;
+        align-items: center;
+        margin-right: 100px;
+    }
+    
+    .video-content iframe {
+        width: 900px;
+        height: 500px;
+        border-radius: 30px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+    }
+    
+
+    /* --------------------------------------------- */
+
+
+
+
+
+
+    /* --- FEAUTURED VIDEOS (KAGAY-ANON RAFTING) --- */
+
+    .bottom-bar3 {
+        background-color: rgb(228, 228, 228);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 53px;
+        padding-bottom: 100px;
+    }
+    
+    .bottom-bar3 h1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 30px;
+        color: black;
+        font-weight: 700;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+    }
+    
+    .video-container {
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+    .video-container iframe {
+        width: 500px;
+        height: 350px;
+        border-radius: 30px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    }
+    
+
+    /* --------------------------------------------- */
+
+
+
+    /* --- 2. MAPAWA NATURE PARK --- */
+
+    .bottom-bar-second-content {
+        color: rgb(255, 255, 255);
+        display: flex;
+        background-image: url('mapawa1.jpg');
+        background-size: cover;
+        background-position: center 60%;
+        background-repeat: no-repeat;
+        height: 700px;
+        background-color: rgba(0, 0, 0, 0.88);
+        background-blend-mode: darken;
+        text-align: justify;
+        gap: 30px;
+    }
+    
+    .title10 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 10px;
+        color: #eeeeee;
+        background-color: #c4a921;
+        padding: 5px 18px;  
+        letter-spacing: 3px;
+        margin-left: 480px;
+        display: inline-block;
+    }
+    
+    .text-content h2 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 55px;
+        color: #eeeeee;
+        font-weight: 1000;
+        margin-bottom: 45px;
+        margin-top: 105px;
+    }
+    
+    
+    .text-content h3 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 25px;
+        font-weight: 400;
+        color: #eeeeee;
+        margin-bottom: 40px;
+        margin-top: -65px;
+        letter-spacing: 8px;
+    }
+    
+    
+    
+    .information5 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        font-weight: 1;
+        color: #eeeeee;
+        margin-top: 12px;
+        margin-bottom: 10px;
+    }
+    
+    .video-container2 {
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+        width: 100%;
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+    
+    .video-container2 iframe {
+        width: 900px;
+        height: 500px;
+        border-radius: 30px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    }
+    
+    .yellow5 {
+        margin: 20px;
+        color: rgb(85, 218, 85);
+        text-shadow: 2px 2px 60px green;
+    
+    }
+
+    /* --------------------------------------------- */
+
+
+
+    /* --- FEAUTURED VIDEOS (MAPAWA NATURE PARK) --- */
+
+
+    .bottom-bar4 {
+        background-color: rgb(228, 228, 228);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 53px;
+        padding-bottom: 100px;
+    }
+
+.bottom-bar4 h1 {
+    font-family: 'Poppins', sans-serif; 
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.video-container4 {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.video-container4 iframe {
+    width: 500px;
+    height: 350px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+
+    /* --------------------------------------------- */
+
+
+
+            /* --- 3. F.S CATANICO FALLS PART --- */
+
+
+
+            .bottom-bar5 {
+                color: rgb(255, 255, 255);
+                display: flex;
+                background-color: rgb(43, 43, 43);
+                background-image: url('catanico.jpg');
+                background-size: cover;
+                background-position: center 60%;
+                background-repeat: no-repeat;
+                height: 700px;
+                margin-top: 0px;
+                background-color: rgba(0, 0, 0, 0.88);
+            background-blend-mode: darken;
+            text-align: justify;
+            gap: 30px;
+            
+            }
+            
+        
+            
+            .text-content5 h2 {
+                font-family: 'Poppins', sans-serif;
+                font-size: 55px;
+                color: #eeeeee;
+                font-weight: 1000;
+                margin-bottom: 45px;    
+                margin-top: 105px;
+            }
+            
+            .text-content5 h3 {
+                font-family: 'Poppins', sans-serif;
+                font-size: 25px;
+                font-weight: 400;
+                color: #eeeeee;
+                margin-bottom: 40px;
+                margin-top: -65px;
+                letter-spacing: 8px;
+            }
+            
+            .title5 {
+                font-family: 'Poppins', sans-serif;
+                font-size: 10px;
+                color: #eeeeee;
+                background-color: #c4a921;
+                padding: 5px 18px; 
+                margin-top: 0px;
+                letter-spacing: 3px;
+                margin-right: 540px;
+                align-items: center;
+                position: relative;
+                justify-content: center;
+                text-align: center;
+                display: inline-block; 
+            }
+            
+            .information6 {
+                font-family: 'Poppins', sans-serif;
+                font-size: 18px;
+                font-weight: 1;
+                color: #eeeeee;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            
+            .text-content5 p {
+                font-family: 'Poppins', sans-serif;
+                font-weight: 10;
+            }
+            
+            .text-content5 {
+                display: inline-block;
+                margin-left: 100px;
+                margin-right: 100px;  
+            }
+            
+            
+            .video-content5 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: -5px;
+                margin-top: 20px;
+                margin-right: 100px;
+            }
+            
+            .video-content5 iframe {
+                width: 900px;
+                height: 500px;
+                border-radius: 30px;
+                box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+            }
+        
+        
+            /* --------------------------------------------- */
+
+
+
+            /* --- FEAUTURED VIDEOS (F.S CATANICO FALLS) --- */
+
+
+            .bottom-barr {
+                background-color: rgb(228, 228, 228);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                padding: 53px;
+                padding-bottom: 100px;
+            }
+            
+            .bottom-barr h1 {
+                font-family: 'Poppins', sans-serif; 
+                font-size: 30px;
+                color: black;
+                font-weight: 700;
+                letter-spacing: 2px;
+                margin-bottom: 10px;
+            }
+            
+            .video-containerr {
+                display: flex;
+                justify-content: space-around;
+                gap: 20px;
+                width: 100%;
+                margin-top: 30px;
+                flex-wrap: wrap;  
+            }
+            
+            .video-containerr iframe {
+                width: 500px;
+                height: 350px;
+                border-radius: 30px;
+                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+            }
+
+            /* --------------------------------------------- */
+            
+
+
+
+    /* --- 4. GASTON PARK PART --- */
+
+
+.bottom-bar-second-contentt {
+    color: rgb(255, 255, 255);
+    display: flex;
+    background-image: url('gaston\ park4.jpg');
+    background-size: cover;
+    background-position: center 60%; 
+    background-repeat: no-repeat;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.88); 
+background-blend-mode: darken;
+text-align: justify;
+gap: 30px;
+}
+
+.title13 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    color: #eeeeee;
+    background-color: #c4a921;
+    padding: 5px 18px;
+    letter-spacing: 3px;
+    margin-left: 230px;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    display: inline-block; 
+}
+
+.text-content h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 55px;
+    color: #eeeeee;
+    font-weight: 1000;
+    margin-bottom: 45px;
+    margin-top: 105px;
+}
+
+.text-content h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #eeeeee;
+    margin-bottom: 40px;
+    margin-top: -65px;
+    letter-spacing: 8px;
+}
+
+
+
+.information13 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 1;
+    color: #eeeeee;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 150%;
+    margin-left: -230px;
+}
+
+.video-container3 {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    width: 100%;
+    margin-top: 100px;
+    margin-right: 75px;
+}
+
+.video-container3 iframe {
+    width: 900px;
+    height: 500px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.yellow5 {
+    margin: 20px;
+    color: rgb(85, 218, 85);
+    text-shadow: 2px 2px 60px green;
+
+}
+
+
+    /* --------------------------------------------- */
+
+
+
+
+
+     /* --- FEAUTURED VIDEOS (4. GASTON PARK) --- */
+
+    .bottom-barrr {
+        background-color: rgb(228, 228, 228);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 53px;
+        padding-bottom: 100px;
+    }
+    
+    .bottom-barrr h1 {
+        font-family: 'Poppins', sans-serif; 
+        font-size: 30px;
+        color: black;
+        font-weight: 700;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+    }
+    
+    
+    .video-containerrr {
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+        width: 100%;
+        margin-top: 30px;
+        flex-wrap: wrap;  
+    }
+    
+    .video-containerrr iframe {
+        width: 500px;
+        height: 350px;
+        border-radius: 30px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    }
+    
+
+
+    /* --------------------------------------------- */
+
+
+
+
+
+
+    /* --- 5. MCARTHUR PARK PART --- */
+
+.bottom-bar7 {
+    color: rgb(255, 255, 255);
+    display: flex;
+    background-image: url('mca.png');
+    background-size: cover;
+    background-position: center 60%;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 99.3vw;
+    background-color: rgba(0, 0, 0, 0.88); 
+background-blend-mode: darken;
+text-align: justify;
+gap: 30px;
+
+}
+
+.information7 h4 {
+    font-size: 30px;
+}
+
+.text-content7 h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 55px;
+    color: #eeeeee;
+    font-weight: 1000;
+    margin-bottom: 45px;    
+    margin-top: 105px;
+}
+
+.text-content7 h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #eeeeee;
+    margin-bottom: 40px;
+    margin-top: -65px;
+    letter-spacing: 8px;
+}
+
+.title7 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    color: #eeeeee;
+    background-color: #c4a921;
+    padding: 5px 18px;  
+    letter-spacing: 3px;
+    margin-right: 540px;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    display: inline-block; 
+}
+
+.information7 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 1;
+    color: #eeeeee;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    letter-spacing: px;
+}
+
+.text-content7 p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 10;
+}
+
+.text-content7 {
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 100px;  
+    vertical-align: top;
+}
+
+
+.video-content7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: -5px;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+.video-content7 iframe {
+    width: 900px;
+    height: 500px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+}
+
+
+
+    /* --------------------------------------------- */
+
+
+
+
+     /* --- FEAUTURED VIDEOS (5. MACARTHUR PARK) --- */
+
+
+    .bottom-barrrr {
+        background-color: rgb(228, 228, 228);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 53px;
+        padding-bottom: 100px;
+    }
+    
+    .bottom-barrrr h1 {
+        font-family: 'Poppins', sans-serif; 
+        font-size: 30px;
+        color: black;
+        font-weight: 700;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+    }
+    
+    .video-containerrrr {
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+        width: 100%;
+        margin-top: 30px;
+        flex-wrap: wrap;  
+    }
+    
+    .video-containerrrr iframe {
+        width: 500px;
+        height: 350px;
+        border-radius: 30px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    }
+
+
+    /* --------------------------------------------- */
+
+    
+
+    /* --- FOOTER!! --- */
+.test4 {
+    display: flex;
+    flex-direction: column;
+    background-color: #dbdbdb;
+    height: 150px;
+    width: 99.2vw; 
+    color: black;
+    position: absolute;
+    margin-top: -1vw;
+    border-radius: 20px 20px 0 0;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+}
+
+.test4 p {
+    color: rgb(117, 117, 117);
+}
+
+    /* --------------------------------------------- */
+
+
+
+
+    /* COLORS */
+
+    .yellow {
+        color: #f7d842; 
+        text-shadow: 2px 2px 100px #f7d842;
+        margin-left: 20px;
+    }
+    
+    .yellow2 {
+        color: #f7d842; 
+        text-shadow: 2px 2px 60px #f7d842;
+        margin-left: px;
+    }
+    
+    .yellow3 {
+        color: #f7d842; 
+        text-shadow: 2px 2px 60px #f7d842;
+        margin-left: px;
+    }
+    
+    .yellow4 {
+        color: #f7d842; 
+        text-shadow: 2px 2px 60px #f7d842;
+        margin-left: 10px;
+    }
+
+    .yellow1 {
+            color: #f7d842; 
+            text-shadow: 2px 2px 120px #f7d842;
+            }
+        
+    .yellow2 {
+                color: #f7d842; 
+                text-shadow: 2px 2px 120px #f7d842;
+                margin-left: 12px;
+                }
+    

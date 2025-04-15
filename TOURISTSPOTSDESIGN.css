@@ -1,0 +1,578 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.infoo h2 {
+    margin-left: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    color: #181818;
+    letter-spacing: 0;
+}
+
+.infoo p {
+    margin-left: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    color: #181818;
+    letter-spacing: 0;
+}
+
+
+.yellow1 {
+    color: #f7d842; 
+    text-shadow: 2px 2px 120px #f7d842;
+    margin-left: 30px;
+    }
+
+
+
+
+
+    /* --- TOURIST SPOTS TEXT --- */
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    margin-top: -20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.40)), url("bg.gif");
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.intro h1 {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 120px;
+    width: 100%;
+    height: 650px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 150px;
+}
+
+
+        /* --------------------------------------------- */
+
+
+
+    /* --- FIRST BOTTOM BAR --- */
+
+    .bottom-bar {
+        background-color: rgb(241, 241, 241);
+        position: absolute;
+        bottom: 0;
+        box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.2);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 50px;
+        border-radius: 40px 40px 0 0;
+        }
+        
+        .bottom-bar h1 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 22px;
+            color: #181818;
+            font-weight: 700;
+            letter-spacing: 4px;
+            margin-bottom: 10px;
+        }
+        
+        .bottom-bar p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+        color: #000000;
+        font-weight: 300;
+        width: 60%;
+        
+        }
+        /* --------------------------------------------- */
+
+
+
+        /* TEXT COLORS */
+
+        .yellow3 {
+            color: #f7d842; 
+            text-shadow: 2px 2px 60px #f7d842;
+            margin-left: 8px;
+        }
+
+        /* --------------------------------------------- */
+
+
+
+        /* --- 1. GASTON PARK --- */
+
+        .info1 {
+            display: flex;
+            color: rgb(32, 44, 53);
+            background: rgb(255, 255, 255);
+            height: 410px;
+            border-radius: 0 0 20px 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            align-items: center;
+            justify-content: center;
+            margin-top: 179px;
+            text-align: justify;
+            gap: 30px;
+        }
+        
+        
+        .images1 .image1 {
+            height: 300px;
+            width: 300px;
+            margin-right: 50px;
+            border-radius: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.308);
+        }
+        
+        .images2 .image2 {
+            height: 300px;
+            width: 300px;
+            margin-right: 50px;
+            border-radius: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.308);
+        }
+        
+        .images3 .image3 {
+            height: 300px;
+            width: 300px;
+            margin-right: 55px;
+            border-radius: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.308);
+        }
+
+                /* --------------------------------------------- */
+
+
+        /* --- 2. SEVEN SEAS WATERPARK --- */
+
+.info2 {
+    display: flex;
+    color: rgb(32, 44, 53);
+    background: rgb(243, 243, 243);
+    height: 410px;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: center;
+    margin-top: -15px;
+    text-align: justify;
+    gap: 30px;
+}
+
+.images11 .image1 {
+    height: 300px;
+    width: 300px;
+    margin-right: 50px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.308);
+}
+
+.images22 .image2 {
+    height: 300px;
+    width: 300px;
+    margin-right: 50px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.308);
+}
+
+.images33 .image3 {
+    height: 300px;
+    width: 300px;
+    margin-right: 55px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.308);
+}
+
+     /* --------------------------------------------- */
+
+
+
+
+    /* --- 3. PLAZA DIVISORIA --- */
+
+
+.info3 {
+    display: flex;
+    color: rgb(32, 44, 53);
+    background: rgb(255, 255, 255);
+    height: 410px;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: center;
+    margin-top: -15px;
+    text-align: justify;
+    gap: 30px;
+}
+
+.images111 .image1 {
+    height: 300px;
+    width: 300px;
+    margin-right: 50px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.308);
+}
+
+.images222 .image2 {
+    height: 300px;
+    width: 300px;
+    margin-right: 49px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.308);
+}
+
+.images333 .image3 {
+    height: 300px;
+    width: 300px;
+    margin-right: 56px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.308);
+}
+
+     /* --------------------------------------------- */
+
+
+     
+
+    /* --- 4. MAPAWA NATURE PARK --- */
+
+.info4 {
+    display: flex;
+    color: rgb(32, 44, 53);
+    background: rgb(243, 243, 243);
+    height: 410px;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: center;
+    margin-top: -15px;
+    text-align: justify;
+    gap: 30px;
+}
+
+.images1111 .image1 {
+    height: 300px;
+    width: 300px;
+    margin-right: 50px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.308);
+}
+
+.images2222 .image2 {
+    height: 300px;
+    width: 300px;
+    margin-right: 50px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.308);
+}
+
+.images3333 .image3 {
+    height: 300px;
+    width: 300px;
+    margin-right: 55px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.308);
+}
+
+     /* --------------------------------------------- */
+
+
+
+
+    /* --- 5. MAPAWA NATURE PARK --- */
+
+
+.info5 {
+    display: flex;
+    color: rgb(32, 44, 53);
+    background: rgb(255, 255, 255);
+    height: 410px;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: center;
+    margin-top: -15px;
+    text-align: justify;
+    gap: 30px;
+}
+
+.images11111 .image1 {
+    height: 300px;
+    width: 300px;
+    margin-right: 53px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.308);
+}
+
+.images22222 .image2 {
+    height: 300px;
+    width: 300px;
+    margin-right: 51px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.308);
+}
+
+.images33333 .image3 {
+    height: 300px;
+    width: 300px;
+    margin-right: 50px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.308);
+}
+
+    /* --------------------------------------------- */
+
+    /* --- 6. JATICO ADVENTURES --- */
+
+.info6 {
+    display: flex;
+    color: rgb(32, 44, 53);
+    background: rgb(243, 243, 243);
+    height: 410px;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: center;
+    margin-top: -15px;
+    text-align: justify;
+    gap: 30px;
+}
+
+.images111111 .image1 {
+    height: 300px;
+    width: 300px;
+    margin-right: 53px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.308);
+}
+
+.images222222 .image2 {
+    height: 300px;
+    width: 300px;
+    margin-right: 51px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.308);
+}
+
+.images333333 .image3 {
+    height: 300px;
+    width: 300px;
+    margin-right: 50px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.308);
+}
+
+    /* --------------------------------------------- */
+
+    /* --- 7. GENERAL MACARTHUR MARKER --- */
+
+.info7 {
+    display: flex;
+    color: rgb(32, 44, 53);
+    background: rgb(255, 255, 255);
+    height: 410px;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: center;
+    margin-top: -15px;
+    text-align: justify;
+    gap: 30px;
+}
+
+.images7 .image1 {
+    height: 300px;
+    width: 300px;
+    margin-right: 53px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.308);
+}
+
+.images7 .image2 {
+    height: 300px;
+    width: 300px;
+    margin-right: 51px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.308);
+}
+
+.images7 .image3 {
+    height: 300px;
+    width: 300px;
+    margin-right: 50px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.308);
+}
+
+
+
+
+    /* --- 8. St. Augustine Metropolitan Cathedral --- */
+
+
+.info8 {
+    display: flex;
+    color: rgb(32, 44, 53);
+    background: rgb(243, 243, 243);
+    height: 410px;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    gap: 30px;
+    margin-top: -15px;
+}
+
+.images8 .image1 {
+    height: 300px;
+    width: 300px;
+    margin-right: 53px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.308);
+}
+
+.images8 .image2 {
+    height: 300px;
+    width: 300px;
+    margin-right: 51px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.308);
+}
+
+.images8 .image3 {
+    height: 300px;
+    width: 300px;
+    margin-right: 50px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.308);
+}
+
+    /* --------------------------------------------- */
+
+
+    /* --- 9. MUSEO DE ORO --- */
+
+.info9 {
+    display: flex;
+    color: rgb(32, 44, 53);
+    background: rgb(255, 255, 255);
+    height: 410px;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    gap: 30px;
+    margin-top: -15px;
+}
+
+.images9 .image1 {
+    height: 300px;
+    width: 300px;
+    margin-right: 53px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.308);
+}
+
+.images9 .image2 {
+    height: 300px;
+    width: 300px;
+    margin-right: 51px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.308);
+}
+
+.images9 .image3 {
+    height: 300px;
+    width: 300px;
+    margin-right: 50px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.308);
+}
+
+    /* --------------------------------------------- */
+
+
+
+    /* --- 10. AMAYA VIEW --- */
+
+.info10 {
+    display: flex;
+    color: rgb(32, 44, 53);
+    background: rgb(243, 243, 243);
+    height: 430px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: center;
+    margin-top: -15px;
+    text-align: justify;
+    gap: 30px;
+
+}
+
+
+.images10 .image1 {
+    height: 300px;
+    width: 300px;
+    margin-right: 53px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.308);
+}
+
+.images10 .image2 {
+    height: 300px;
+    width: 300px;
+    margin-right: 51px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.308);
+}
+
+.images10 .image3 {
+    height: 300px;
+    width: 300px;
+    margin-right: 50px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.308);
+}
+
+    /* --------------------------------------------- */
+
+
+    /* FOOTER */
+
+    .test3 {
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        background-color: #dbdbdb;
+        height: 150px;
+        width: 99.2vw; 
+        color: black;
+        position: absolute;
+        margin-top: -1vw;
+        border-radius: 20px 20px 0 0;
+        align-items: center; 
+        justify-content: center; 
+        text-align: center; 
+    }
+    
+    .test3 p {
+        color: rgb(117, 117, 117);
+    }

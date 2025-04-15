@@ -1,0 +1,404 @@
+/* NAG ADD NAKO COMMENTS PARA MA SABTAN */
+/* NAG ADD NAKO COMMENTS PARA MA SABTAN */
+/* NAG ADD NAKO COMMENTS PARA MA SABTAN */
+/* NAG ADD NAKO COMMENTS PARA MA SABTAN */
+
+
+body {
+    font-family: Arial, sans-serif; /* Use Arial font or any other sans-serif font */
+    margin: 0; /* Remove the space around the edges of the page */
+    min-height: 100vh; /* Make the page at least as tall as the screen */
+    background-color: #ececec; /* Set the background color to light grey */
+    overflow-x: hidden; /* Prevent the page from scrolling left or right */
+}
+
+.fullscreen-iframe {
+    position: fixed; /* Keep the iframe in the same position even when scrolling */
+    top: 0; /* Place the iframe at the top of the screen */
+    width: 100vw; /* Make the iframe as wide as the screen */
+    height: 100vh; /* Make the iframe as tall as the screen */
+    border: none; /* Remove the border around the iframe */
+    z-index: 9; /* Make sure it stays above other elements */
+}
+
+
+/** BACKGROUND ANIMATION **/
+
+.background-container::before {
+    content: ""; /* Create an empty space */
+    position: absolute; /* Place it inside its parent element */
+    width: 100vw; /* Make it as wide as the screen */
+    height: 100%; /* Make it as tall as the parent element */
+    background-size: cover; /* Make the background image cover the entire area */
+    background-position: center; /* Center the background image */
+    animation: bgTransition 25s infinite; /* Change the background image every 25 seconds, forever */
+    filter: brightness(55%); /* Darken the background a little */
+}
+
+/* Animation for changing background images */
+@keyframes bgTransition {
+    0%, 20% { background-image: url("boulevard2.webp"); } /* Show the first image at the beginning */
+    21%, 40% { background-image: url(" tourist-spots-misamis-oriental (1).png"); } /* Show the second image */
+    41%, 60% { background-image: url("whitewater.jpg"); } /* Show the third image */
+    61%, 80% { background-image: url("wmremove-transformed.png"); } /* Show the fourth image */
+    81%, 100% { background-image: url("mca.png"); } /* Show the fifth image */
+}
+
+
+ /**------------------------**/
+
+
+
+
+ /** NAVIGATION BAR **/
+
+ .header {
+    position: fixed; /* Keep the header at the top of the screen */
+    top: 0; /* Place it at the top */
+    left: 0; /* Place it at the left */
+    width: 100%; /* Make it the full width of the screen */
+    height: 100px; /* Set the height of the header */
+    background: white; /* Set the background color to white */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add a shadow below the header */
+    display: flex; /* Use flexbox to arrange the items inside */
+    justify-content: space-between; /* Space out the items */
+    align-items: center; /* Align items vertically in the center */
+    padding: 0 20px; /* Add padding inside the header */
+    z-index: 10; /* Make sure the header stays above other content */
+}
+
+.logo img {
+    width: 140px; /* Set the width of the logo */
+    height: auto; /* Let the height adjust automatically */
+    margin-left: 50px; /* Add space to the left of the logo */
+}
+
+.nav {
+    display: flex; /* Use flexbox to arrange the navigation items */
+    flex: 1; /* Take up the remaining space */
+    justify-content: flex-end; /* Place the navigation items at the right */
+    gap: 30px; /* Add space between the items */
+    margin-right: 80px; /* Add space to the right */
+}
+
+.nav a {
+    font-family: 'Poppins', sans-serif; /* Use the Poppins font */
+    text-decoration: none; /* Remove underline from links */
+    color: rgb(58, 58, 58); /* Set the text color to dark grey */
+    font-weight: 420; /* Set the font weight */
+    font-size: 15px; /* Set the font size */
+    padding: 10px 15px; /* Add padding inside the links */
+    position: relative; /* Set position to relative for later styling */
+}
+
+.nav a::after {
+    content: ""; /* Create an empty element after the link */
+    position: absolute; /* Position it absolutely inside the link */
+    left: 50%; /* Position it in the center horizontally */
+    bottom: 0; /* Position it at the bottom of the link */
+    width: 0; /* Start with no width */
+    height: 3px; /* Set the height of the line */
+    background-color: #f7d842; /* Set the line color to yellow */
+    transition: all 0.3s ease-in-out; /* Make the width change smoothly */
+    transform: translateX(-50%); /* Center the line horizontally */
+}
+
+.nav a:hover::after {
+    width: 100%; /* Expand the line to full width when hovering over the link */
+}
+
+/**------------------------**/
+
+
+/* WELCOME TO CAGAYAN DE ORO CITY */
+.content {
+    display: flex; /* Use flexbox to arrange the content */
+    flex-direction: column; /* Arrange content vertically */
+    color: white; /* Set the text color to white */
+    justify-content: center; /* Center the content vertically */
+    align-items: center; /* Center the content horizontally */
+    height: 90vh; /* Make it 90% of the viewport height */
+    text-align: center; /* Center the text */
+    position: relative; /* Set position to relative */
+}
+
+/* "WELCOME TO" text */
+.content h1 {
+    font-family: 'Montserrat', 'Lato', 'Open Sans', sans-serif; /* Use specific fonts */
+    font-weight: 550; /* Set the font weight */
+    letter-spacing: 4px; /* Add space between the letters */
+    font-size: 29px; /* Set the font size */
+    text-shadow: 2px 2px 30px rgba(0, 0, 0, 0.8); /* Add a shadow behind the text */
+    margin: 0 0 -7px 0; /* Moves the text down */
+    margin-right: 1150px; /* Add space to the right */
+}
+
+/* "CAGAYAN DE ORO CITY" text */
+.content p {
+    font-family: 'Montserrat', sans-serif; /* Use Montserrat font */
+    font-weight: 750; /* Set the font weight */
+    font-size: 120px; /* Set the font size */
+    margin: 0; /* Remove margin so that welcome to and city of golden is not spaced between vertically*/
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8); /* Add a shadow behind the text */
+}
+
+/* "CITY OF GOLDEN FRIENDSHIP" text */
+.content h2 {
+    font-family: 'Montserrat', 'Lato', 'Open Sans', sans-serif; /* Use specific fonts */
+    font-weight: bold; /* Set font weight to bold */
+    background-color: #e9c61a; /* Set background color to yellow */
+    padding: 5px 8px; /* Add padding around the text */
+    color: #ffffff; /* Set text color to white */
+    letter-spacing: 5px; /* Add space between the letters */
+    font-size: 28px; /* Set the font size */
+    text-shadow: 2px 2px 60px #f7d842; /* Add a yellow shadow to the text */
+    margin-top: 1px; /* Add a small margin on top which makes the text go down*/
+    margin-left: 800px; /* adds margin to the left which makes it the text go right */
+}
+
+.yellow7 {
+    color: #f7d842; /* Set text color to yellow */
+    text-shadow: 2px 2px 120px #f7d842; /* Add a glowing yellow shadow */
+}
+
+
+
+/**------------------------**/
+
+
+/** FIRST BOTTOM BAR**/
+
+.bottom-bar {
+    background-color: rgb(241, 241, 241); /* Set background to light grey */
+    position: absolute; /* Position it absolutely on the page */
+    bottom: 0; /* Place it at the bottom of the screen */
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.2); /* Add a shadow above the bar */
+    display: flex; /* Use flexbox to arrange the items inside */
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center the items horizontally */
+    justify-content: center; /* Center the items vertically */
+    text-align: center; /* Center the text */
+    padding: 50px; /* Add padding around the content */
+    border-radius: 40px 40px 0 0; /* Round the top corners */
+}
+
+.bottom-bar h1 {
+    font-family: 'Poppins', sans-serif; /* Use Poppins font */
+    font-size: 22px; /* Set the font size */
+    color: #181818; /* Set the text color to dark grey */
+    font-weight: 600; /* Set the font weight */
+    letter-spacing: 4px; /* Add space between the letters */
+    margin-bottom: 20px; /* Add space below the heading which makes the text go up*/
+}
+
+.bottom-bar p {
+    font-family: 'Poppins', sans-serif; /* Use Poppins font */
+    font-size: 15px; /* Set the font size */
+    color: #000000; /* Set the text color to black */
+    font-weight: 300; /* Set the font weight */
+    width: 60%; /* Set the width of the paragraph */
+}
+
+/**------------------------**/
+
+/* INFORMATION SECTION */
+.bottom-bar2 {
+    color: rgb(255, 255, 255); /* Make text white */
+    display: flex; /* Arrange items in a row */
+    background-color: rgb(43, 43, 43); /* Dark grey background */
+    background-image: url('backgroundimage.jpg'); /* Add background image */
+    background-size: cover; /* Make the image cover the entire area */
+    background-position: center 60%; /* Center the image */
+    background-repeat: no-repeat; /* Don't repeat the image */
+    height: 700px; /* Set height of the section */
+    margin-top: 80px; /* Add space above this section */
+    background-color: rgba(0, 0, 0, 0.88); /* Darken the background */
+    background-blend-mode: darken; /* Make the background darker */
+    border-radius: 0 0 40px 40px; /* Round the bottom corners */
+    text-align: justify;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+
+.yellow {
+    color: #f7d842; /* Make the text yellow */
+    text-shadow: 2px 2px 60px #f7d842; /* Add a yellow shadow to the text */
+}
+
+.text-content h2 {
+    font-family: 'Poppins', sans-serif; /* Use the Poppins font */
+    font-size: 45px; /* Make the text bigger */
+    color: #eeeeee; /* Light grey text color */
+    font-weight: 1000; /* Make the text very bold */
+    margin-bottom: 50px; /* Add space below the text */
+}
+
+.text-content h3 {
+    font-family: 'Poppins', sans-serif; /* Use the Poppins font */
+    font-size: 20px; /* Set the font size */
+    font-weight: 800; /* Make the text bold */
+    color: #eeeeee; /* Light grey text color */
+    margin-top: -70px; /* Move the text up */
+    letter-spacing: 8px; /* Space out the letters */
+}
+
+.red {
+    color: rgb(240, 41, 41); /* Make the text red */
+    text-shadow: 2px 2px 30px rgb(240, 41, 41); /* Add a red shadow to the text */
+}
+
+.title {
+    font-family: 'Poppins', sans-serif; /* Use the Poppins font */
+    font-size: 10px; /* Make the text small */
+    color: #eeeeee; /* Light grey text color */
+    background-color: #c4a921; /* Gold background for the title */
+    padding: 5px 18px; /* Add space inside the title */
+    letter-spacing: 3px; /* Add space between letters */
+    margin-top: 16px; /* Add space above the title */
+    align-items: center; /* Center the title horizontally */
+    justify-content: center; /* Center the title horizontally */
+    text-align: center; /* Center the text */
+    display: inline-block; /* Keep the title inline with other elements */
+}
+
+.text-content p {
+    font-family: 'Poppins', sans-serif; /* Use the Poppins font */
+    font-weight: 10; /* Make the text light */
+}
+
+.text-content {
+    margin-left: 100px; /* Add space on the left which makes text go right */
+    margin-right: 50px; /* Add space on the right which makes text go left */
+}
+
+/**------------------------**/
+
+
+/* IMAGES OF THE INFORMATION SECTION */
+
+.image-container {
+    display: flex;          /* Aligns images in a row (horizontally) */
+    justify-content: flex-start; /* Aligns the images to the left */
+}
+
+.image-content img {
+    height: 400px;
+    width: 300px;                /* Adjust the image size */
+    border-radius: 10px;         /* Optional: adds rounded corners to the image */
+    margin-right: 690px;
+    position: relative;          /* Allows movement using top */
+    top: 200px;                    /* Default position (no movement) */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.308);
+}
+
+.image-content2 img {
+    height: 400px;
+    width: 300px;                /* Adjust the image size */
+    border-radius: 10px;         /* Optional: adds rounded corners to the image */
+    margin-left: 317px;
+    position: relative;          /* Allows movement using top */
+    top: -150px;                 /* Move this image 390px up */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.308);
+}
+
+.image-content3 img {
+    height: 400px;
+    width: 300px;                /* Adjust the image size */
+    border-radius: 10px; /* Left top and bottom corners rounded, right side no radius */
+    margin-left: 633px;
+    position: relative;          /* Allows movement using top */
+    top: -609px;                 /* Move this image 400px up */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.308);
+}
+
+
+/**------------------------**/
+
+
+/* TRENDING PLACES SECTION */
+
+.test {
+    display: flex; /* Aligns content in a row */
+    flex-direction: column; /* Aligns content vertically */
+    background-color: #f5f5f5; /* Sets background color */
+    height: 80vh; /* Sets height to 80% of the viewport height */
+    width: 100vw; /* Full width */
+    color: black; /* Sets text color to black */
+    position: absolute; /* Allows precise positioning */
+    margin-top: 750px; /* Adds space above the section */
+    align-items: center; /* Centers content horizontally */
+    text-align: center; /* Centers text horizontally */
+}
+
+.test .title2 h2 {
+    font-family: 'Poppins', sans-serif; /* Uses Poppins font */
+    font-size: 30px; /* Sets font size */
+    color: #181818; /* Dark grey text color */
+    font-weight: 1000; /* Sets font weight to light */
+    letter-spacing: 5px; /* Adds space between letters */
+    margin-top: 50px; /* Adds space above the heading */
+    margin-bottom: 20px; /* Adds space below the heading */
+}
+
+.images-container {
+    display: flex; /* Aligns the images horizontally */
+    justify-content: center; /* Centers the images horizontally */
+    gap: 100px; /* Adds space between the images */
+    margin-top: 50px; /* Adds space above the images */
+    margin-left: 25px;
+}
+
+/* ALIGN TEXT VERTICALLY WITH THE IMAGES */
+
+.images100, .images101, .images102, .images103 {
+    display: flex; /* Aligns content in a row */
+    flex-direction: column; /* Aligns content vertically */
+    align-items: center; /* Centers the content horizontally */
+    width: 250px; /* Sets a consistent width for the image containers */
+}
+
+/**------------------------**/
+
+
+
+.image1, .image2, .image3, .image4 {
+    width: 300px; /* Sets the width of the images */
+    height: 280px; /* Sets the height of the images */
+    border-radius: 20px; /* Adds rounded corners to the images */
+    margin-right: 20px; /* Adds space to the right of the images */
+}
+
+.info {
+    margin-top: 10px; /* Adds space above the above the content text (text) */
+}
+
+.info h2, .info p {
+    font-family: 'Poppins', sans-serif; /* Uses Poppins font */
+    font-size: 18px; /* Sets the font size */
+    color: #181818; /* Dark grey text color */
+    margin-right: 16px; /* Adds space to the right of the text */
+    letter-spacing: 0; /* Removes extra space between letters */
+}
+
+
+/* FOOTER SECTIONS */
+
+.test2 {
+    display: flex; /* Aligns content in a row */
+    flex-direction: column; /* Aligns content vertically */
+    background-color: #dbdbdb; /* Sets background color */
+    height: 150px; /* Sets height of the footer section */
+    width: 99.1vw; /* Full width with slight margin */
+    color: black; /* Sets text color to black */
+    position: absolute; /* Allows precise positioning */
+    margin-top: 75vw; /* Adds space above the footer */
+    border-radius: 20px 20px 0 0; /* Rounds the top corners */
+    align-items: center; /* Centers the content horizontally */
+    justify-content: center; /* Centers the content vertically */
+    text-align: center; /* Centers the text */
+}
+
+.test2 p {
+    color: rgb(117, 117, 117); /* Sets text color to light grey */
+}
+
